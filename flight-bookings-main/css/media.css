@@ -1,0 +1,36 @@
+@media screen and (max-width: 850px) {
+    .heading-text-area {
+        flex-direction: column;
+    }
+    .heading-text-area h1 {
+        margin-bottom: 15px;
+    }
+    .row {
+        flex-wrap: wrap;
+        
+    }
+    .row:nth-of-type(2) {
+        flex-direction: column;
+    }
+    .row label {
+        /* min-width: 150px; */
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-content .left{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .tiny-mobile {
+        display: block;
+    }
+    .right-part ul {
+        display: none;
+    }
+}
